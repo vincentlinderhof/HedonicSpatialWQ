@@ -10,7 +10,8 @@ if(Sys.info()["user"] == "linde069"){
   Maas2 <- readOGR(dsn = "D:/Analyses/HedonicSpatialWQ/SurveyData", layer = "Maas")
 }
 
-
+#=============================================
+#=============================================
 
 
 #install.packages("rgdal")
