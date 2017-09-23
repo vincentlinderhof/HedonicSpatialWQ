@@ -712,7 +712,7 @@ knnSubSet <- knearneigh(centroidsSubSet,k=10)
 knnSubSet1 <- spdep::knn2nb(knnSubSet)
 knnSubSet1_w <- nb2listw(knnSubSet1)
 
-
+library("spdep")
 OLSMaas_E <- lm(lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + isol + factor(tuin_zow) 
                 + factor(won_4) + 
                   factor(won_1) + bwpr1905 + bwpr6070 + bwpr7180 + bwpr8190 + bwpr9100 + bevdicht + 

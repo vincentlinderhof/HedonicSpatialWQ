@@ -1,0 +1,1554 @@
+This file includes the raw output of statistical analyses during the data checking, 
+testing and regressions
+ 
+=========================================================================
+T-test for the means between Selvar=0 (included) and Selvar=1 (excluded)=========================================================================
+$`strata: 0 `
+                       Mean St. Deviation     Min        Max Valid N
+Rijn$lnprice      11.988706     0.4059492 10.4483    13.7902    8405
+Rijn$lnwoonop      4.730551     0.3224463  2.3979     9.2102    8405
+Rijn$nbadk         1.028198     0.1698045  1.0000     3.0000    8405
+Rijn$isol          3.010827     1.7884291  1.0000     6.0000    8405
+Rijn$bevdicht    428.177394   169.2156059  4.0000   662.0000    8405
+Rijn$pnietact     17.274242    15.2006682  1.0000    46.0000    8405
+Rijn$geminkinko   50.042356    16.7600408  4.0000    97.0000    8405
+Rijn$raildist   6726.081261  2688.3424258  3.0000 10929.0000    8405
+Rijn$highdist   2310.155146  1833.6885632  2.0000  6930.0000    8405
+Rijn$dist_local  258.265080   217.6209548  1.0000   608.0000    8405
+Rijn$dist_3a    1540.652112   728.9251132  2.0000  2465.0000    8405
+Rijn$dist_4d    2211.703510  1098.1209987  3.0000  4609.0000    8405
+Rijn$dist_4e    2052.390363  1199.9114130  2.0000  4848.0000    8405
+Rijn$dist_4f    2410.299108  1209.0238585  2.0000  4847.0000    8405
+Rijn$dist_zwem  2403.531945  1095.2302804  4.0000  4774.0000    8405
+Rijn$chl         123.858418    77.4816491  1.0000   231.0000    8405
+Rijn$doo         296.354194    88.2894054  3.0000   399.0000    8405
+Rijn$ZM          193.511124    68.3582430  5.0000   312.0000    8405
+
+$`strata: 1 `
+                       Mean St. Deviation    Min        Max Valid N
+Rijn$lnprice      11.894224     0.5354595 9.5834    13.8138   70682
+Rijn$lnwoonop      4.661543     0.3892413 2.3979     9.3157   70682
+Rijn$nbadk         1.048697     0.2222848 1.0000     6.0000   70682
+Rijn$isol          2.491143     1.6858885 1.0000     6.0000   70682
+Rijn$bevdicht    338.609505   197.1936856 1.0000   669.0000   70682
+Rijn$pnietact     17.000113    15.8810491 1.0000    47.0000   70682
+Rijn$geminkinko   50.526372    23.3863174 1.0000   123.0000   70682
+Rijn$raildist   4954.390863  2981.7326919 1.0000 10933.0000   70682
+Rijn$highdist   2604.021957  2295.5666122 1.0000  6930.0000   70682
+Rijn$dist_local  247.694830   206.9939525 1.0000   608.0000   70682
+Rijn$dist_3a    1466.965748   774.2389935 1.0000  2465.0000   70682
+Rijn$dist_4d    4083.492785  1103.0524901 1.0000  4612.0000   70682
+Rijn$dist_4e    2182.934368  1492.3257603 1.0000  4849.0000   70682
+Rijn$dist_4f    2626.028791  1502.0428483 1.0000  4848.0000   70682
+Rijn$dist_zwem  2590.868665  1561.6582417 1.0000  4778.0000   70682
+Rijn$chl         187.980250    76.2881009 2.0000   239.0000   70682
+Rijn$doo         314.011290   112.3022435 1.0000   402.0000   70682
+Rijn$ZM          247.884454    90.6647239 1.0000   315.0000   70682
+
+
+	Welch Two Sample t-test
+
+data:  lnprice by Selvar
+t = 19.423, df = 12179, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.08494692 0.10401723
+sample estimates:
+mean in group 0 mean in group 1 
+       11.98871        11.89422 
+
+
+	Welch Two Sample t-test
+
+data:  lnwoonop by Selvar
+t = 18.114, df = 11528, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.06154037 0.07647565
+sample estimates:
+mean in group 0 mean in group 1 
+       4.730551        4.661543 
+
+
+	Welch Two Sample t-test
+
+data:  nbadk by Selvar
+t = -10.088, df = 12118, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.02448279 -0.01651617
+sample estimates:
+mean in group 0 mean in group 1 
+       1.028198        1.048697 
+
+
+	Welch Two Sample t-test
+
+data:  isol by Selvar
+t = 25.335, df = 10260, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.4794753 0.5598917
+sample estimates:
+mean in group 0 mean in group 1 
+       3.010827        2.491143 
+
+
+	Welch Two Sample t-test
+
+data:  bevdicht by Selvar
+t = 45.027, df = 11302, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 85.66871 93.46707
+sample estimates:
+mean in group 0 mean in group 1 
+       428.1774        338.6095 
+
+
+	Welch Two Sample t-test
+
+data:  pnietact by Selvar
+t = 1.5555, df = 10706, p-value = 0.1199
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.07132633  0.61958301
+sample estimates:
+mean in group 0 mean in group 1 
+       17.27424        17.00011 
+
+
+	Welch Two Sample t-test
+
+data:  geminkinko by Selvar
+t = -2.3858, df = 12665, p-value = 0.01706
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.88168134 -0.08635045
+sample estimates:
+mean in group 0 mean in group 1 
+       50.04236        50.52637 
+
+
+	Welch Two Sample t-test
+
+data:  raildist by Selvar
+t = 56.432, df = 11015, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 1710.15 1833.23
+sample estimates:
+mean in group 0 mean in group 1 
+       6726.081        4954.391 
+
+
+	Welch Two Sample t-test
+
+data:  highdist by Selvar
+t = -13.489, df = 11780, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -336.5698 -251.1638
+sample estimates:
+mean in group 0 mean in group 1 
+       2310.155        2604.022 
+
+
+	Welch Two Sample t-test
+
+data:  dist_local by Selvar
+t = 4.2312, df = 10295, p-value = 2.344e-05
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+  5.673374 15.467126
+sample estimates:
+mean in group 0 mean in group 1 
+       258.2651        247.6948 
+
+
+	Welch Two Sample t-test
+
+data:  dist_3a by Selvar
+t = 8.7023, df = 10787, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 57.08868 90.28405
+sample estimates:
+mean in group 0 mean in group 1 
+       1540.652        1466.966 
+
+
+	Welch Two Sample t-test
+
+data:  dist_4d by Selvar
+t = -147.66, df = 10524, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -1896.637 -1846.942
+sample estimates:
+mean in group 0 mean in group 1 
+       2211.704        4083.493 
+
+
+	Welch Two Sample t-test
+
+data:  dist_4e by Selvar
+t = -9.1667, df = 11733, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -158.4589 -102.6291
+sample estimates:
+mean in group 0 mean in group 1 
+       2052.390        2182.934 
+
+
+	Welch Two Sample t-test
+
+data:  dist_4f by Selvar
+t = -15.037, df = 11725, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -243.8519 -187.6074
+sample estimates:
+mean in group 0 mean in group 1 
+       2410.299        2626.029 
+
+
+	Welch Two Sample t-test
+
+data:  dist_zwem by Selvar
+t = -14.072, df = 12869, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -213.4310 -161.2425
+sample estimates:
+mean in group 0 mean in group 1 
+       2403.532        2590.869 
+
+
+	Welch Two Sample t-test
+
+data:  chl by Selvar
+t = -71.843, df = 10437, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -65.87136 -62.37231
+sample estimates:
+mean in group 0 mean in group 1 
+       123.8584        187.9802 
+
+
+	Welch Two Sample t-test
+
+data:  doo by Selvar
+t = -16.791, df = 11896, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -19.71840 -15.59579
+sample estimates:
+mean in group 0 mean in group 1 
+       296.3542        314.0113 
+
+
+	Welch Two Sample t-test
+
+data:  ZM by Selvar
+t = -66.316, df = 12224, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -55.98049 -52.76617
+sample estimates:
+mean in group 0 mean in group 1 
+       193.5111        247.8845 
+
+$data
+------------------------------------------------------------
+--                        Frequencies                     --
+--                                                        --
+    Value # of Cases       % Cumulative %
+1  199501        177     0.2          0.2
+2  199502        293     0.4          0.6
+3  199503        420     0.5          1.1
+4  199504        464     0.6          1.7
+5  199601        498     0.6          2.3
+6  199602        473     0.6          2.9
+7  199603        567     0.7          3.7
+8  199604        556     0.7          4.4
+9  199701        618     0.8          5.1
+10 199702        595     0.8          5.9
+11 199703        624     0.8          6.7
+12 199704        658     0.8          7.5
+13 199801        710     0.9          8.4
+14 199802       1326     1.7         10.1
+15 199803       1668     2.1         12.2
+16 199804       1748     2.2         14.4
+17 199901       2043     2.6         17.0
+18 199902       1954     2.5         19.5
+19 199903       2054     2.6         22.1
+20 199904       1833     2.3         24.4
+21 200001       2032     2.6         26.9
+22 200002       1957     2.5         29.4
+23 200003       2047     2.6         32.0
+24 200004       2052     2.6         34.6
+25 200101       2326     2.9         37.5
+26 200102       2356     3.0         40.5
+27 200103       2475     3.1         43.7
+28 200104       2420     3.1         46.7
+29 200201       2567     3.2         50.0
+30 200202       2479     3.1         53.1
+31 200203       2254     2.9         55.9
+32 200204       2413     3.1         59.0
+33 200301       2536     3.2         62.2
+34 200302       2496     3.2         65.4
+35 200303       2666     3.4         68.7
+36 200304       2758     3.5         72.2
+37 200401       2656     3.4         75.6
+38 200402       2754     3.5         79.1
+39 200403       2548     3.2         82.3
+40 200404       2581     3.3         85.5
+41 200501       2513     3.2         88.7
+42 200502       2836     3.6         92.3
+43 200503       2975     3.8         96.1
+44 200504       3111     3.9        100.0
+--                                                        --
+--                        Case Summary                    --
+--                                                        --
+           Valid Missing Total
+# of cases 79087       0 79087
+--                                                        --
+--                                                        --
+------------------------------------------------------------
+
+
+
+
+
+
+$data
+------------------------------------------------------------
+--                        Frequencies                     --
+--                                                        --
+  Value # of Cases       % Cumulative %
+1     0      74977    94.8         94.8
+2     1       4110     5.2        100.0
+--                                                        --
+--                        Case Summary                    --
+--                                                        --
+           Valid Missing Total
+# of cases 79087       0 79087
+--                                                        --
+--                                                        --
+------------------------------------------------------------
+
+
+
+
+
+
+$data
+------------------------------------------------------------
+--                        Frequencies                     --
+--                                                        --
+  Value # of Cases       % Cumulative %
+1     0      58709    74.2         74.2
+2     1      20378    25.8        100.0
+--                                                        --
+--                        Case Summary                    --
+--                                                        --
+           Valid Missing Total
+# of cases 79087       0 79087
+--                                                        --
+--                                                        --
+------------------------------------------------------------
+
+
+
+
+
+
+$data
+------------------------------------------------------------
+--                        Frequencies                     --
+--                                                        --
+  Value # of Cases       % Cumulative %
+1     0      70547    89.2         89.2
+2     1       8540    10.8        100.0
+--                                                        --
+--                        Case Summary                    --
+--                                                        --
+           Valid Missing Total
+# of cases 79087       0 79087
+--                                                        --
+--                                                        --
+------------------------------------------------------------
+
+
+
+
+
+
+NULL
+NULL
+=========================================================================
+Checking the rescaling of variables 
+=========================================================================
+$`strata: all cases `
+                      Mean St. Deviation    Min      Max Valid N
+Rijn$lnprice     11.904265     0.5240279 9.5834  13.8138   79087
+Rijn$lnwoonop     4.668877     0.3832854 2.3979   9.3157   79087
+Rijn$isol         2.546373     1.7046095 1.0000   6.0000   79087
+Rijn$bevdicht   348.128365   196.3605986 1.0000 669.0000   79087
+Rijn$pnietact    17.029246    15.8102644 1.0000  47.0000   79087
+Rijn$geminkinko  50.474933    22.7742556 1.0000 123.0000   79087
+
+$`strata: all cases `
+                           Mean St. Deviation   Min       Max
+Rijn$raildist      5142.6779117  3.001996e+03 1.000 10933.000
+Rijn$raildist_rs      5.1426779  3.001996e+00 0.001    10.933
+Rijn$highdist      2572.7911540  2.252797e+03 1.000  6930.000
+Rijn$highdist_rs      2.5727912  2.252797e+00 0.001     6.930
+Rijn$dist_local     248.8181876  2.081732e+02 1.000   608.000
+Rijn$dist_local_rs    0.2488182  2.081732e-01 0.001     0.608
+Rijn$dist_3a       1474.7967934  7.698806e+02 1.000  2465.000
+Rijn$dist_3a_rs       1.4747968  7.698806e-01 0.001     2.465
+Rijn$dist_4e       2169.0607559  1.464572e+03 1.000  4849.000
+Rijn$dist_4e_rs       2.1690608  1.464572e+00 0.001     4.849
+Rijn$dist_4d       3884.5676913  1.244321e+03 1.000  4612.000
+Rijn$dist_4d_rs       3.8845677  1.244321e+00 0.001     4.612
+Rijn$dist_4f       2603.1020395  1.475164e+03 1.000  4848.000
+Rijn$dist_4f_rs       2.6031020  1.475164e+00 0.001     4.848
+Rijn$dist_zwem     2570.9593865  1.519997e+03 1.000  4778.000
+Rijn$dist_zwem_rs     2.5709594  1.519997e+00 0.001     4.778
+Rijn$chl            181.1656783  7.892929e+01 1.000   239.000
+Rijn$doo            312.1347756  1.101335e+02 1.000   402.000
+Rijn$ZM             242.1059087  9.013243e+01 1.000   315.000
+Rijn$ZM_rs            0.2421059  9.013243e-02 0.001     0.315
+
+=========================================================================
+===RESULTS FOR 2000 =====================================================
+=========================================================================
+Regression results 2000 - OLS regression (stepwise) the rescaling of 
+variables 
+=========================================================================
+===Rijnplassen, 2000, model A============================================
+
+Call:
+lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + 
+    isol + factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100, 
+    data = subset3)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.09238 -0.13296 -0.02682  0.12446  1.03256 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)           8.784023   0.130044  67.546  < 2e-16 ***
+factor(Quarter)200002 0.002676   0.026201   0.102  0.91868    
+factor(Quarter)200003 0.014381   0.025051   0.574  0.56611    
+factor(Quarter)200004 0.024684   0.025336   0.974  0.33027    
+lnwoonop              0.523210   0.025956  20.157  < 2e-16 ***
+nbadk                 0.408693   0.064684   6.318 4.67e-10 ***
+factor(inpandig)1     0.168909   0.038752   4.359 1.50e-05 ***
+isol                  0.030741   0.006510   4.722 2.82e-06 ***
+factor(tuin_zow)1     0.055181   0.018557   2.974  0.00304 ** 
+bwpr71801             0.009082   0.027025   0.336  0.73693    
+bwpr81901             0.020212   0.027381   0.738  0.46065    
+bwpr91001             0.145136   0.034168   4.248 2.45e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.238 on 708 degrees of freedom
+Multiple R-squared:  0.5716,	Adjusted R-squared:  0.5649 
+F-statistic: 85.86 on 11 and 708 DF,  p-value: < 2.2e-16
+
+=========================================================================
+===Rijnplassen, 2000, model B============================================
+
+Call:
+lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + 
+    isol + factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + 
+    bevdicht + pnietact + geminkinko + raildist_rs + highdist_rs, 
+    data = subset3)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.09575 -0.11271 -0.00595  0.09856  1.01211 
+
+Coefficients:
+                        Estimate Std. Error t value Pr(>|t|)    
+(Intercept)            9.128e+00  1.231e-01  74.145  < 2e-16 ***
+factor(Quarter)200002  2.116e-02  2.373e-02   0.892  0.37274    
+factor(Quarter)200003  2.192e-02  2.273e-02   0.964  0.33523    
+factor(Quarter)200004  4.558e-02  2.298e-02   1.984  0.04768 *  
+lnwoonop               4.773e-01  2.386e-02  19.998  < 2e-16 ***
+nbadk                  3.385e-01  5.896e-02   5.741 1.40e-08 ***
+factor(inpandig)1      1.443e-01  3.530e-02   4.089 4.83e-05 ***
+isol                   2.952e-02  5.971e-03   4.945 9.55e-07 ***
+factor(tuin_zow)1      5.465e-02  1.687e-02   3.240  0.00125 ** 
+bwpr71801              4.910e-03  2.604e-02   0.189  0.85048    
+bwpr81901              5.197e-02  2.646e-02   1.965  0.04985 *  
+bwpr91001              1.687e-01  3.292e-02   5.125 3.85e-07 ***
+bevdicht              -2.672e-04  5.915e-05  -4.518 7.33e-06 ***
+pnietact              -6.309e-04  6.790e-04  -0.929  0.35314    
+geminkinko             4.190e-03  5.888e-04   7.116 2.75e-12 ***
+raildist_rs           -2.084e-02  2.967e-03  -7.023 5.13e-12 ***
+highdist_rs           -4.591e-03  5.184e-03  -0.886  0.37611    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.2147 on 703 degrees of freedom
+Multiple R-squared:  0.6539,	Adjusted R-squared:  0.646 
+F-statistic:    83 on 16 and 703 DF,  p-value: < 2.2e-16
+
+=========================================================================
+===Rijnplassen, 2000, model C============================================
+
+Call:
+lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + 
+    isol + factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + 
+    bevdicht + pnietact + geminkinko + raildist_rs + highdist_rs + 
+    dist_local_rs, data = subset3)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.09436 -0.11531 -0.00752  0.09449  1.00440 
+
+Coefficients:
+                        Estimate Std. Error t value Pr(>|t|)    
+(Intercept)            9.158e+00  1.246e-01  73.509  < 2e-16 ***
+factor(Quarter)200002  2.042e-02  2.371e-02   0.861  0.38942    
+factor(Quarter)200003  2.238e-02  2.271e-02   0.985  0.32474    
+factor(Quarter)200004  4.463e-02  2.296e-02   1.943  0.05238 .  
+lnwoonop               4.746e-01  2.391e-02  19.852  < 2e-16 ***
+nbadk                  3.321e-01  5.906e-02   5.623 2.71e-08 ***
+factor(inpandig)1      1.466e-01  3.529e-02   4.153 3.69e-05 ***
+isol                   2.941e-02  5.966e-03   4.930 1.03e-06 ***
+factor(tuin_zow)1      5.227e-02  1.693e-02   3.088  0.00209 ** 
+bwpr71801              7.150e-03  2.606e-02   0.274  0.78388    
+bwpr81901              5.560e-02  2.654e-02   2.095  0.03653 *  
+bwpr91001              1.725e-01  3.298e-02   5.229 2.25e-07 ***
+bevdicht              -2.623e-04  5.919e-05  -4.432 1.08e-05 ***
+pnietact              -6.870e-04  6.794e-04  -1.011  0.31224    
+geminkinko             4.195e-03  5.883e-04   7.130 2.49e-12 ***
+raildist_rs           -2.074e-02  2.966e-03  -6.992 6.30e-12 ***
+highdist_rs           -4.490e-03  5.180e-03  -0.867  0.38627    
+dist_local_rs         -5.641e-02  3.725e-02  -1.515  0.13032    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.2145 on 702 degrees of freedom
+Multiple R-squared:  0.655,	Adjusted R-squared:  0.6467 
+F-statistic:  78.4 on 17 and 702 DF,  p-value: < 2.2e-16
+
+=========================================================================
+===Rijnplassen, 2000, model D============================================
+
+Call:
+lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + 
+    isol + factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + 
+    bevdicht + pnietact + geminkinko + raildist_rs + highdist_rs + 
+    dist_local_rs + factor(buff25) + dist_3a_rs + dist_4d_rs + 
+    dist_4e_rs + dist_4f_rs + dist_zwem_rs, data = subset3)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.06583 -0.11340 -0.01323  0.09443  1.00782 
+
+Coefficients:
+                        Estimate Std. Error t value Pr(>|t|)    
+(Intercept)            9.084e+00  1.397e-01  65.038  < 2e-16 ***
+factor(Quarter)200002  2.172e-02  2.367e-02   0.918  0.35912    
+factor(Quarter)200003  2.566e-02  2.273e-02   1.129  0.25939    
+factor(Quarter)200004  4.677e-02  2.297e-02   2.037  0.04206 *  
+lnwoonop               4.753e-01  2.391e-02  19.876  < 2e-16 ***
+nbadk                  3.230e-01  5.908e-02   5.467 6.40e-08 ***
+factor(inpandig)1      1.445e-01  3.527e-02   4.097 4.68e-05 ***
+isol                   3.087e-02  5.980e-03   5.162 3.19e-07 ***
+factor(tuin_zow)1      4.644e-02  1.703e-02   2.726  0.00657 ** 
+bwpr71801             -7.987e-03  2.771e-02  -0.288  0.77322    
+bwpr81901              3.501e-02  2.781e-02   1.259  0.20847    
+bwpr91001              1.580e-01  3.425e-02   4.614 4.71e-06 ***
+bevdicht              -2.772e-04  6.052e-05  -4.580 5.51e-06 ***
+pnietact              -2.645e-04  6.907e-04  -0.383  0.70191    
+geminkinko             4.137e-03  6.215e-04   6.656 5.70e-11 ***
+raildist_rs           -2.038e-02  3.202e-03  -6.365 3.55e-10 ***
+highdist_rs           -4.944e-03  5.617e-03  -0.880  0.37906    
+dist_local_rs         -5.295e-02  3.710e-02  -1.427  0.15391    
+factor(buff25)1        5.728e-02  2.488e-02   2.302  0.02160 *  
+dist_3a_rs             2.352e-02  1.108e-02   2.123  0.03410 *  
+dist_4d_rs             1.651e-02  1.040e-02   1.588  0.11264    
+dist_4e_rs            -1.259e-02  1.020e-02  -1.234  0.21750    
+dist_4f_rs            -3.451e-03  1.215e-02  -0.284  0.77646    
+dist_zwem_rs           1.702e-02  1.018e-02   1.672  0.09490 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.213 on 696 degrees of freedom
+Multiple R-squared:  0.6628,	Adjusted R-squared:  0.6516 
+F-statistic: 59.48 on 23 and 696 DF,  p-value: < 2.2e-16
+
+=========================================================================
+===Rijnplassen, 2000, model E============================================
+
+Call:
+lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + 
+    isol + factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + 
+    bevdicht + pnietact + geminkinko + raildist_rs + highdist_rs + 
+    dist_local_rs + factor(buff25) + dist_3a_rs + dist_4d_rs + 
+    dist_4e_rs + dist_4f_rs + dist_zwem_rs + chl + doo + ZM_rs, 
+    data = subset3)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.03506 -0.11631 -0.01361  0.09063  0.97306 
+
+Coefficients: (1 not defined because of singularities)
+                        Estimate Std. Error t value Pr(>|t|)    
+(Intercept)            1.001e+01  7.441e-01  13.458  < 2e-16 ***
+factor(Quarter)200002  2.096e-02  2.364e-02   0.887  0.37564    
+factor(Quarter)200003  2.402e-02  2.274e-02   1.056  0.29125    
+factor(Quarter)200004  4.528e-02  2.295e-02   1.973  0.04885 *  
+lnwoonop               4.669e-01  2.431e-02  19.210  < 2e-16 ***
+nbadk                  3.273e-01  5.904e-02   5.543 4.23e-08 ***
+factor(inpandig)1      1.413e-01  3.525e-02   4.009 6.77e-05 ***
+isol                   2.981e-02  5.994e-03   4.974 8.27e-07 ***
+factor(tuin_zow)1      4.439e-02  1.704e-02   2.605  0.00939 ** 
+bwpr71801             -3.681e-03  2.780e-02  -0.132  0.89470    
+bwpr81901              4.240e-02  2.812e-02   1.508  0.13205    
+bwpr91001              1.587e-01  3.422e-02   4.639 4.19e-06 ***
+bevdicht              -2.793e-04  6.073e-05  -4.599 5.04e-06 ***
+pnietact              -4.105e-04  7.021e-04  -0.585  0.55894    
+geminkinko             3.975e-03  6.263e-04   6.346 3.99e-10 ***
+raildist_rs           -2.322e-02  3.492e-03  -6.648 6.01e-11 ***
+highdist_rs           -6.487e-03  5.748e-03  -1.129  0.25947    
+dist_local_rs         -4.848e-02  3.714e-02  -1.305  0.19227    
+factor(buff25)1        6.169e-02  2.494e-02   2.474  0.01361 *  
+dist_3a_rs             2.152e-02  1.112e-02   1.936  0.05327 .  
+dist_4d_rs             3.716e-02  1.466e-02   2.535  0.01147 *  
+dist_4e_rs             1.783e-04  1.225e-02   0.015  0.98839    
+dist_4f_rs            -1.109e-02  1.271e-02  -0.872  0.38333    
+dist_zwem_rs           6.749e-03  1.148e-02   0.588  0.55670    
+chl                   -5.867e-03  3.491e-03  -1.681  0.09326 .  
+doo                    1.335e-04  7.022e-04   0.190  0.84928    
+ZM_rs                         NA         NA      NA       NA    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.2127 on 694 degrees of freedom
+Multiple R-squared:  0.6648,	Adjusted R-squared:  0.6527 
+F-statistic: 55.05 on 25 and 694 DF,  p-value: < 2.2e-16
+
+=========================================================================
+===Rijnplassen, 2000, spatial dependence test on model E, 4NN ===========
+
+	Lagrange multiplier diagnostics for spatial dependence
+
+data:  
+model: lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + isol +
+factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + bevdicht + pnietact + geminkinko + raildist_rs +
+highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + dist_4d_rs + dist_4e_rs + dist_4f_rs +
+dist_zwem_rs + chl + doo + ZM_rs, data = subset3)
+weights: knn4_W
+
+LMerr = 85.55, df = 1, p-value < 2.2e-16
+
+
+	Lagrange multiplier diagnostics for spatial dependence
+
+data:  
+model: lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + isol +
+factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + bevdicht + pnietact + geminkinko + raildist_rs +
+highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + dist_4d_rs + dist_4e_rs + dist_4f_rs +
+dist_zwem_rs + chl + doo + ZM_rs, data = subset3)
+weights: knn4_W
+
+LMlag = 89.106, df = 1, p-value < 2.2e-16
+
+
+	Lagrange multiplier diagnostics for spatial dependence
+
+data:  
+model: lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + isol +
+factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + bevdicht + pnietact + geminkinko + raildist_rs +
+highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + dist_4d_rs + dist_4e_rs + dist_4f_rs +
+dist_zwem_rs + chl + doo + ZM_rs, data = subset3)
+weights: knn4_W
+
+RLMerr = 12.044, df = 1, p-value = 0.0005196
+
+
+	Lagrange multiplier diagnostics for spatial dependence
+
+data:  
+model: lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + isol +
+factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + bevdicht + pnietact + geminkinko + raildist_rs +
+highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + dist_4d_rs + dist_4e_rs + dist_4f_rs +
+dist_zwem_rs + chl + doo + ZM_rs, data = subset3)
+weights: knn4_W
+
+RLMlag = 15.6, df = 1, p-value = 7.827e-05
+
+
+	Lagrange multiplier diagnostics for spatial dependence
+
+data:  
+model: lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + isol +
+factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + bevdicht + pnietact + geminkinko + raildist_rs +
+highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + dist_4d_rs + dist_4e_rs + dist_4f_rs +
+dist_zwem_rs + chl + doo + ZM_rs, data = subset3)
+weights: knn4_W
+
+SARMA = 101.15, df = 2, p-value < 2.2e-16
+
+=========================================================================
+===Rijnplassen, 2000, spatial lag model E, 4NN ==========================
+
+Call:lagsarlm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + 
+    factor(inpandig) + isol + factor(tuin_zow) + bwpr7180 + bwpr8190 + 
+    bwpr9100 + bevdicht + pnietact + geminkinko + raildist_rs + 
+    highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + 
+    dist_4d_rs + dist_4e_rs + dist_4f_rs + dist_zwem_rs + chl +     doo + ZM_rs, data = subset3, listw = knn4_W)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-1.767159 -0.111304 -0.012594  0.083617  0.987204 
+
+Type: lag 
+Coefficients: (asymptotic standard errors) 
+    (1 not defined because of singularities)
+                         Estimate  Std. Error z value  Pr(>|z|)
+(Intercept)            5.5815e+00  8.0761e-01  6.9111 4.808e-12
+factor(Quarter)200002  2.3531e-02  2.1749e-02  1.0819 0.2792955
+factor(Quarter)200003  3.2154e-02  2.0923e-02  1.5368 0.1243385
+factor(Quarter)200004  4.3189e-02  2.1115e-02  2.0454 0.0408161
+lnwoonop               4.0981e-01  2.3071e-02 17.7635 < 2.2e-16
+nbadk                  3.5023e-01  5.4350e-02  6.4439 1.164e-10
+factor(inpandig)1      1.4073e-01  3.2435e-02  4.3388 1.433e-05
+isol                   2.3922e-02  5.5518e-03  4.3089 1.641e-05
+factor(tuin_zow)1      3.4341e-02  1.5717e-02  2.1850 0.0288894
+bwpr71801              1.4851e-03  2.5593e-02  0.0580 0.9537268
+bwpr81901              2.2042e-02  2.5984e-02  0.8483 0.3962700
+bwpr91001              1.0774e-01  3.2189e-02  3.3472 0.0008164
+bevdicht              -2.3010e-04  5.6366e-05 -4.0823 4.459e-05
+pnietact              -6.6789e-04  6.4614e-04 -1.0337 0.3012916
+geminkinko             2.7226e-03  5.9243e-04  4.5956 4.314e-06
+raildist_rs           -1.4269e-02  3.3016e-03 -4.3219 1.547e-05
+highdist_rs           -3.1856e-03  5.3076e-03 -0.6002 0.5483789
+dist_local_rs         -5.0922e-02  3.4175e-02 -1.4900 0.1362142
+factor(buff25)1        4.7773e-02  2.2970e-02  2.0798 0.0375424
+dist_3a_rs             1.3398e-02  1.0267e-02  1.3050 0.1918998
+dist_4d_rs             1.8104e-02  1.3585e-02  1.3326 0.1826635
+dist_4e_rs             5.6624e-04  1.1300e-02  0.0501 0.9600363
+dist_4f_rs            -1.0364e-02  1.1712e-02 -0.8850 0.3761733
+dist_zwem_rs           7.6302e-03  1.0587e-02  0.7207 0.4710917
+chl                   -1.2002e-04  3.2377e-03 -0.0371 0.9704297
+doo                    3.3107e-04  6.4608e-04  0.5124 0.6083549
+ZM_rs                          NA          NA      NA        NA
+
+Rho: 0.31757, LR test value: 77.966, p-value: < 2.22e-16
+Asymptotic standard error: 0.03329
+    z-value: 9.5396, p-value: < 2.22e-16
+Wald statistic: 91.005, p-value: < 2.22e-16
+
+Log likelihood: 145.1713 for lag model
+ML residual variance (sigma squared): 0.038287, (sigma: 0.19567)
+Number of observations: 720 
+Number of parameters estimated: 28 
+AIC: -234.34, (AIC for lm: -158.38)
+LM test for residual autocorrelation
+test value: 12.022, p-value: 0.00052578
+
+=========================================================================
+===Rijnplassen, 2000, spatial error model E, 4NN ========================
+
+Call:errorsarlm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + 
+    factor(inpandig) + isol + factor(tuin_zow) + bwpr7180 + bwpr8190 + 
+    bwpr9100 + bevdicht + pnietact + geminkinko + raildist_rs + 
+    highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + 
+    dist_4d_rs + dist_4e_rs + dist_4f_rs + dist_zwem_rs + chl +     doo + ZM_rs, data = subset3, listw = knn4_W)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-1.829192 -0.106147 -0.011752  0.086111  1.018188 
+
+Type: error 
+Coefficients: (asymptotic standard errors) 
+    (1 not defined because of singularities)
+                         Estimate  Std. Error z value  Pr(>|z|)
+(Intercept)            9.6459e+00  8.8946e-01 10.8447 < 2.2e-16
+factor(Quarter)200002  2.3181e-02  2.0901e-02  1.1091   0.26739
+factor(Quarter)200003  3.2383e-02  2.0482e-02  1.5811   0.11386
+factor(Quarter)200004  3.9424e-02  2.0493e-02  1.9238   0.05438
+lnwoonop               4.2145e-01  2.3443e-02 17.9780 < 2.2e-16
+nbadk                  3.4176e-01  5.2549e-02  6.5037 7.836e-11
+factor(inpandig)1      1.5010e-01  3.2341e-02  4.6410 3.467e-06
+isol                   2.6598e-02  5.4656e-03  4.8665 1.136e-06
+factor(tuin_zow)1      3.9225e-02  1.5803e-02  2.4821   0.01306
+bwpr71801             -7.1963e-03  3.2801e-02 -0.2194   0.82635
+bwpr81901              4.8684e-02  3.2247e-02  1.5097   0.13112
+bwpr91001              1.7669e-01  3.8829e-02  4.5505 5.353e-06
+bevdicht              -3.4393e-04  8.1574e-05 -4.2161 2.485e-05
+pnietact              -7.0043e-04  8.8195e-04 -0.7942   0.42709
+geminkinko             3.6073e-03  7.5204e-04  4.7968 1.612e-06
+raildist_rs           -1.9269e-02  4.8865e-03 -3.9432 8.039e-05
+highdist_rs           -8.4485e-03  7.1724e-03 -1.1779   0.23883
+dist_local_rs         -5.9967e-02  3.5790e-02 -1.6755   0.09384
+factor(buff25)1        5.4045e-02  2.4060e-02  2.2462   0.02469
+dist_3a_rs             1.5700e-02  1.3621e-02  1.1526   0.24906
+dist_4d_rs             1.7910e-02  1.9694e-02  0.9094   0.36312
+dist_4e_rs            -2.1903e-02  1.5302e-02 -1.4314   0.15233
+dist_4f_rs             1.1017e-02  1.7554e-02  0.6276   0.53026
+dist_zwem_rs           1.9121e-02  1.5932e-02  1.2002   0.23007
+chl                   -2.4570e-03  4.5197e-03 -0.5436   0.58670
+doo                    3.6293e-04  6.7831e-04  0.5350   0.59262
+ZM_rs                          NA          NA      NA        NA
+
+Lambda: 0.42386, LR test value: 76.515, p-value: < 2.22e-16
+Asymptotic standard error: 0.039363
+    z-value: 10.768, p-value: < 2.22e-16
+Wald statistic: 115.95, p-value: < 2.22e-16
+
+Log likelihood: 144.4459 for error model
+ML residual variance (sigma squared): 0.037623, (sigma: 0.19397)
+Number of observations: 720 
+Number of parameters estimated: 28 
+AIC: -232.89, (AIC for lm: -158.38)
+
+=========================================================================
+===Rijnplassen, 2000, spatial dependence test on model E, 10NN ==========
+
+	Lagrange multiplier diagnostics for spatial dependence
+
+data:  
+model: lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + isol +
+factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + bevdicht + pnietact + geminkinko + raildist_rs +
+highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + dist_4d_rs + dist_4e_rs + dist_4f_rs +
+dist_zwem_rs + chl + doo + ZM_rs, data = subset3)
+weights: knn10_W
+
+LMerr = 44.367, df = 1, p-value = 2.723e-11
+
+
+	Lagrange multiplier diagnostics for spatial dependence
+
+data:  
+model: lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + isol +
+factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + bevdicht + pnietact + geminkinko + raildist_rs +
+highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + dist_4d_rs + dist_4e_rs + dist_4f_rs +
+dist_zwem_rs + chl + doo + ZM_rs, data = subset3)
+weights: knn10_W
+
+LMlag = 51.143, df = 1, p-value = 8.588e-13
+
+
+	Lagrange multiplier diagnostics for spatial dependence
+
+data:  
+model: lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + isol +
+factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + bevdicht + pnietact + geminkinko + raildist_rs +
+highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + dist_4d_rs + dist_4e_rs + dist_4f_rs +
+dist_zwem_rs + chl + doo + ZM_rs, data = subset3)
+weights: knn10_W
+
+RLMerr = 6.9813, df = 1, p-value = 0.008237
+
+
+	Lagrange multiplier diagnostics for spatial dependence
+
+data:  
+model: lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + isol +
+factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + bevdicht + pnietact + geminkinko + raildist_rs +
+highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + dist_4d_rs + dist_4e_rs + dist_4f_rs +
+dist_zwem_rs + chl + doo + ZM_rs, data = subset3)
+weights: knn10_W
+
+RLMlag = 13.757, df = 1, p-value = 0.000208
+
+
+	Lagrange multiplier diagnostics for spatial dependence
+
+data:  
+model: lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + isol +
+factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + bevdicht + pnietact + geminkinko + raildist_rs +
+highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + dist_4d_rs + dist_4e_rs + dist_4f_rs +
+dist_zwem_rs + chl + doo + ZM_rs, data = subset3)
+weights: knn10_W
+
+SARMA = 58.124, df = 2, p-value = 2.39e-13
+
+=========================================================================
+===Rijnplassen, 2000, spatial lag model E, 10NN =========================
+
+Call:lagsarlm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + 
+    factor(inpandig) + isol + factor(tuin_zow) + bwpr7180 + bwpr8190 + 
+    bwpr9100 + bevdicht + pnietact + geminkinko + raildist_rs + 
+    highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + 
+    dist_4d_rs + dist_4e_rs + dist_4f_rs + dist_zwem_rs + chl +     doo + ZM_rs, data = subset3, listw = knn10_W)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-1.884669 -0.109266 -0.012041  0.093442  0.940577 
+
+Type: lag 
+Coefficients: (asymptotic standard errors) 
+    (1 not defined because of singularities)
+                         Estimate  Std. Error z value  Pr(>|z|)
+(Intercept)            5.6125e+00  9.4109e-01  5.9639 2.464e-09
+factor(Quarter)200002  1.9184e-02  2.2496e-02  0.8528  0.393790
+factor(Quarter)200003  2.9604e-02  2.1646e-02  1.3677  0.171421
+factor(Quarter)200004  4.2190e-02  2.1833e-02  1.9324  0.053308
+lnwoonop               4.3855e-01  2.3499e-02 18.6621 < 2.2e-16
+nbadk                  3.4192e-01  5.6197e-02  6.0843 1.170e-09
+factor(inpandig)1      1.3721e-01  3.3538e-02  4.0912 4.291e-05
+isol                   2.6482e-02  5.7200e-03  4.6297 3.662e-06
+factor(tuin_zow)1      4.4946e-02  1.6218e-02  2.7714  0.005582
+bwpr71801             -9.8137e-03  2.6448e-02 -0.3711  0.710590
+bwpr81901              2.0511e-02  2.7025e-02  0.7590  0.447859
+bwpr91001              1.1044e-01  3.3828e-02  3.2649  0.001095
+bevdicht              -2.6335e-04  5.8259e-05 -4.5204 6.174e-06
+pnietact              -6.1491e-04  6.7204e-04 -0.9150  0.360193
+geminkinko             2.5849e-03  6.1615e-04  4.1953 2.725e-05
+raildist_rs           -1.5056e-02  3.4724e-03 -4.3360 1.451e-05
+highdist_rs           -2.3166e-03  5.5159e-03 -0.4200  0.674499
+dist_local_rs         -4.9986e-02  3.5337e-02 -1.4145  0.157205
+factor(buff25)1        5.5070e-02  2.3733e-02  2.3204  0.020320
+dist_3a_rs             1.2933e-02  1.0623e-02  1.2175  0.223404
+dist_4d_rs             1.8085e-02  1.4071e-02  1.2853  0.198695
+dist_4e_rs            -8.1376e-04  1.1687e-02 -0.0696  0.944487
+dist_4f_rs            -1.2874e-02  1.2174e-02 -1.0575  0.290289
+dist_zwem_rs           8.5859e-03  1.0970e-02  0.7827  0.433812
+chl                    9.1514e-05  3.3810e-03  0.0271  0.978406
+doo                    3.5594e-04  6.6798e-04  0.5329  0.594135
+ZM_rs                          NA          NA      NA        NA
+
+Rho: 0.30229, LR test value: 39.262, p-value: 3.7065e-10
+Asymptotic standard error: 0.046266
+    z-value: 6.5338, p-value: 6.4116e-11
+Wald statistic: 42.691, p-value: 6.4116e-11
+
+Log likelihood: 125.8192 for lag model
+ML residual variance (sigma squared): 0.040932, (sigma: 0.20232)
+Number of observations: 720 
+Number of parameters estimated: 28 
+AIC: -195.64, (AIC for lm: -158.38)
+LM test for residual autocorrelation
+test value: 3.3711, p-value: 0.06635
+
+=========================================================================
+===Rijnplassen, 2000, spatial error model E, 10NN =======================
+
+Call:errorsarlm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + 
+    factor(inpandig) + isol + factor(tuin_zow) + bwpr7180 + bwpr8190 + 
+    bwpr9100 + bevdicht + pnietact + geminkinko + raildist_rs + 
+    highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + 
+    dist_4d_rs + dist_4e_rs + dist_4f_rs + dist_zwem_rs + chl +     doo + ZM_rs, data = subset3, listw = knn10_W)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-1.952138 -0.105469 -0.008347  0.088499  0.964810 
+
+Type: error 
+Coefficients: (asymptotic standard errors) 
+    (1 not defined because of singularities)
+                         Estimate  Std. Error z value  Pr(>|z|)
+(Intercept)            9.3635e+00  9.1432e-01 10.2409 < 2.2e-16
+factor(Quarter)200002  2.6047e-02  2.1991e-02  1.1845 0.2362265
+factor(Quarter)200003  2.6611e-02  2.1429e-02  1.2418 0.2143010
+factor(Quarter)200004  4.2243e-02  2.1408e-02  1.9732 0.0484749
+lnwoonop               4.4653e-01  2.3648e-02 18.8822 < 2.2e-16
+nbadk                  3.4658e-01  5.5314e-02  6.2657 3.711e-10
+factor(inpandig)1      1.3899e-01  3.3364e-02  4.1657 3.104e-05
+isol                   2.6922e-02  5.6463e-03  4.7681 1.860e-06
+factor(tuin_zow)1      5.0216e-02  1.6271e-02  3.0863 0.0020269
+bwpr71801             -1.7821e-02  3.1965e-02 -0.5575 0.5771834
+bwpr81901              4.4147e-02  3.2027e-02  1.3784 0.1680745
+bwpr91001              1.6845e-01  3.8520e-02  4.3732 1.225e-05
+bevdicht              -3.5624e-04  7.9617e-05 -4.4744 7.662e-06
+pnietact               4.0109e-04  8.3400e-04  0.4809 0.6305714
+geminkinko             2.8477e-03  7.3046e-04  3.8986 9.677e-05
+raildist_rs           -1.8006e-02  4.8121e-03 -3.7418 0.0001827
+highdist_rs           -8.9068e-03  6.9915e-03 -1.2739 0.2026830
+dist_local_rs         -5.6003e-02  3.5613e-02 -1.5726 0.1158176
+factor(buff25)1        4.9729e-02  2.4131e-02  2.0608 0.0393190
+dist_3a_rs             1.0579e-02  1.3464e-02  0.7858 0.4320053
+dist_4d_rs             1.0725e-02  2.0347e-02  0.5271 0.5981111
+dist_4e_rs            -1.8220e-02  1.5032e-02 -1.2121 0.2254777
+dist_4f_rs             1.4180e-02  1.7326e-02  0.8184 0.4131178
+dist_zwem_rs           2.2364e-02  1.6711e-02  1.3383 0.1807887
+chl                   -1.7320e-03  4.6456e-03 -0.3728 0.7092757
+doo                    5.1643e-04  6.9691e-04  0.7410 0.4586765
+ZM_rs                          NA          NA      NA        NA
+
+Lambda: 0.45522, LR test value: 38.109, p-value: 6.6914e-10
+Asymptotic standard error: 0.057046
+    z-value: 7.9798, p-value: 1.5543e-15
+Wald statistic: 63.678, p-value: 1.4433e-15
+
+Log likelihood: 125.2426 for error model
+ML residual variance (sigma squared): 0.040471, (sigma: 0.20117)
+Number of observations: 720 
+Number of parameters estimated: 28 
+AIC: -194.49, (AIC for lm: -158.38)
+
+=========================================================================
+===RESULTS FOR 2005 =====================================================
+=========================================================================
+===Rijnplassen, 2005, model A============================================
+
+Call:
+lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + 
+    isol + factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100, 
+    data = subset4)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.85612 -0.13908 -0.02545  0.11597  1.05946 
+
+Coefficients:
+                       Estimate Std. Error t value Pr(>|t|)    
+(Intercept)            7.747024   0.092480  83.770  < 2e-16 ***
+factor(Quarter)200502  0.003055   0.014998   0.204 0.838621    
+factor(Quarter)200503  0.024905   0.015353   1.622 0.104951    
+factor(Quarter)200504  0.009598   0.015174   0.633 0.527134    
+lnwoonop               0.893490   0.020338  43.933  < 2e-16 ***
+nbadk                  0.152321   0.031381   4.854 1.32e-06 ***
+factor(inpandig)1      0.158310   0.024678   6.415 1.80e-10 ***
+isol                   0.015743   0.003366   4.677 3.13e-06 ***
+factor(tuin_zow)1     -0.011993   0.011672  -1.027 0.304332    
+bwpr71801             -0.069336   0.014474  -4.791 1.80e-06 ***
+bwpr81901             -0.102301   0.014519  -7.046 2.62e-12 ***
+bwpr91001              0.065701   0.017634   3.726 0.000201 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.2226 on 1792 degrees of freedom
+Multiple R-squared:  0.6454,	Adjusted R-squared:  0.6432 
+F-statistic: 296.5 on 11 and 1792 DF,  p-value: < 2.2e-16
+
+=========================================================================
+===Rijnplassen, 2005, model B============================================
+
+Call:
+lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + 
+    isol + factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + 
+    bevdicht + pnietact + geminkinko + raildist_rs + highdist_rs, 
+    data = subset4)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.76431 -0.13375 -0.02233  0.10331  1.03054 
+
+Coefficients:
+                        Estimate Std. Error t value Pr(>|t|)    
+(Intercept)            7.947e+00  8.914e-02  89.152  < 2e-16 ***
+factor(Quarter)200502  5.631e-03  1.419e-02   0.397 0.691566    
+factor(Quarter)200503  2.395e-02  1.453e-02   1.648 0.099435 .  
+factor(Quarter)200504  1.056e-02  1.437e-02   0.735 0.462685    
+lnwoonop               8.236e-01  1.998e-02  41.227  < 2e-16 ***
+nbadk                  1.400e-01  2.975e-02   4.706 2.71e-06 ***
+factor(inpandig)1      1.618e-01  2.349e-02   6.891 7.67e-12 ***
+isol                   1.131e-02  3.208e-03   3.524 0.000435 ***
+factor(tuin_zow)1     -5.818e-03  1.106e-02  -0.526 0.598897    
+bwpr71801             -8.356e-02  1.457e-02  -5.736 1.13e-08 ***
+bwpr81901             -8.205e-02  1.501e-02  -5.466 5.25e-08 ***
+bwpr91001              4.029e-02  1.754e-02   2.297 0.021735 *  
+bevdicht              -8.404e-06  2.935e-05  -0.286 0.774682    
+pnietact              -2.503e-04  3.943e-04  -0.635 0.525594    
+geminkinko             4.501e-03  3.735e-04  12.050  < 2e-16 ***
+raildist_rs           -1.060e-02  1.956e-03  -5.418 6.85e-08 ***
+highdist_rs            4.553e-03  2.961e-03   1.538 0.124328    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.2106 on 1787 degrees of freedom
+Multiple R-squared:  0.6835,	Adjusted R-squared:  0.6807 
+F-statistic: 241.3 on 16 and 1787 DF,  p-value: < 2.2e-16
+
+=========================================================================
+===Rijnplassen, 2005, model C============================================
+
+Call:
+lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + 
+    isol + factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + 
+    bevdicht + pnietact + geminkinko + raildist_rs + highdist_rs + 
+    dist_local_rs, data = subset4)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.75271 -0.13427 -0.02326  0.10330  1.02828 
+
+Coefficients:
+                        Estimate Std. Error t value Pr(>|t|)    
+(Intercept)            7.957e+00  8.940e-02  89.006  < 2e-16 ***
+factor(Quarter)200502  4.924e-03  1.420e-02   0.347  0.72877    
+factor(Quarter)200503  2.350e-02  1.453e-02   1.617  0.10597    
+factor(Quarter)200504  1.032e-02  1.437e-02   0.718  0.47266    
+lnwoonop               8.236e-01  1.997e-02  41.239  < 2e-16 ***
+nbadk                  1.391e-01  2.974e-02   4.676 3.15e-06 ***
+factor(inpandig)1      1.618e-01  2.348e-02   6.889 7.76e-12 ***
+isol                   1.122e-02  3.208e-03   3.498  0.00048 ***
+factor(tuin_zow)1     -6.254e-03  1.106e-02  -0.565  0.57186    
+bwpr71801             -8.149e-02  1.464e-02  -5.568 2.97e-08 ***
+bwpr81901             -8.112e-02  1.502e-02  -5.400 7.54e-08 ***
+bwpr91001              4.102e-02  1.754e-02   2.338  0.01950 *  
+bevdicht              -1.093e-05  2.940e-05  -0.372  0.71004    
+pnietact              -2.240e-04  3.946e-04  -0.568  0.57028    
+geminkinko             4.487e-03  3.735e-04  12.013  < 2e-16 ***
+raildist_rs           -1.052e-02  1.956e-03  -5.375 8.65e-08 ***
+highdist_rs            4.519e-03  2.961e-03   1.526  0.12707    
+dist_local_rs         -3.315e-02  2.337e-02  -1.419  0.15622    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.2106 on 1786 degrees of freedom
+Multiple R-squared:  0.6839,	Adjusted R-squared:  0.6809 
+F-statistic: 227.3 on 17 and 1786 DF,  p-value: < 2.2e-16
+
+=========================================================================
+===Rijnplassen, 2005, model D============================================
+
+Call:
+lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + 
+    isol + factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + 
+    bevdicht + pnietact + geminkinko + raildist_rs + highdist_rs + 
+    dist_local_rs + factor(buff25) + dist_3a_rs + dist_4d_rs + 
+    dist_4e_rs + dist_4f_rs + dist_zwem_rs, data = subset4)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.64494 -0.13330 -0.02557  0.10350  0.94757 
+
+Coefficients:
+                        Estimate Std. Error t value Pr(>|t|)    
+(Intercept)            8.082e+00  9.305e-02  86.853  < 2e-16 ***
+factor(Quarter)200502  6.085e-03  1.392e-02   0.437 0.661996    
+factor(Quarter)200503  2.501e-02  1.423e-02   1.757 0.079063 .  
+factor(Quarter)200504  8.907e-03  1.409e-02   0.632 0.527314    
+lnwoonop               8.082e-01  1.983e-02  40.761  < 2e-16 ***
+nbadk                  1.241e-01  2.925e-02   4.242 2.33e-05 ***
+factor(inpandig)1      1.607e-01  2.303e-02   6.976 4.26e-12 ***
+isol                   9.657e-03  3.151e-03   3.064 0.002213 ** 
+factor(tuin_zow)1     -5.920e-03  1.084e-02  -0.546 0.585175    
+bwpr71801             -7.206e-02  1.466e-02  -4.917 9.61e-07 ***
+bwpr81901             -8.364e-02  1.515e-02  -5.522 3.85e-08 ***
+bwpr91001              2.746e-02  1.756e-02   1.564 0.118009    
+bevdicht              -1.191e-05  2.990e-05  -0.398 0.690559    
+pnietact              -4.560e-04  3.923e-04  -1.162 0.245293    
+geminkinko             4.355e-03  3.722e-04  11.700  < 2e-16 ***
+raildist_rs           -1.031e-02  1.946e-03  -5.297 1.33e-07 ***
+highdist_rs            5.835e-03  3.009e-03   1.939 0.052631 .  
+dist_local_rs         -3.613e-02  2.296e-02  -1.574 0.115719    
+factor(buff25)1        2.974e-02  1.733e-02   1.717 0.086210 .  
+dist_3a_rs             1.142e-02  7.251e-03   1.575 0.115387    
+dist_4d_rs            -1.709e-02  4.340e-03  -3.937 8.56e-05 ***
+dist_4e_rs             1.469e-02  4.376e-03   3.358 0.000802 ***
+dist_4f_rs             1.006e-02  4.196e-03   2.397 0.016625 *  
+dist_zwem_rs          -2.735e-02  4.338e-03  -6.306 3.61e-10 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.2062 on 1780 degrees of freedom
+Multiple R-squared:  0.6979,	Adjusted R-squared:  0.694 
+F-statistic: 178.8 on 23 and 1780 DF,  p-value: < 2.2e-16
+
+=========================================================================
+===Rijnplassen, 2005, model E============================================
+
+Call:
+lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + 
+    isol + factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + 
+    bevdicht + pnietact + geminkinko + raildist_rs + highdist_rs + 
+    dist_local_rs + factor(buff25) + dist_3a_rs + dist_4d_rs + 
+    dist_4e_rs + dist_4f_rs + dist_zwem_rs + chl + doo + ZM_rs, 
+    data = subset4)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.58345 -0.12274 -0.01616  0.10310  0.87201 
+
+Coefficients:
+                        Estimate Std. Error t value Pr(>|t|)    
+(Intercept)            8.563e+00  9.236e-02  92.714  < 2e-16 ***
+factor(Quarter)200502  7.320e-04  1.295e-02   0.057 0.954922    
+factor(Quarter)200503  1.334e-02  1.326e-02   1.006 0.314558    
+factor(Quarter)200504  5.532e-03  1.310e-02   0.422 0.672818    
+lnwoonop               7.935e-01  1.847e-02  42.969  < 2e-16 ***
+nbadk                  9.521e-02  2.726e-02   3.492 0.000491 ***
+factor(inpandig)1      1.646e-01  2.142e-02   7.683 2.55e-14 ***
+isol                   1.009e-02  2.929e-03   3.444 0.000587 ***
+factor(tuin_zow)1      7.008e-03  1.011e-02   0.693 0.488310    
+bwpr71801             -5.144e-02  1.381e-02  -3.725 0.000201 ***
+bwpr81901             -4.213e-02  1.450e-02  -2.905 0.003723 ** 
+bwpr91001              4.384e-02  1.656e-02   2.647 0.008188 ** 
+bevdicht              -3.743e-05  2.986e-05  -1.254 0.210085    
+pnietact               3.097e-05  3.678e-04   0.084 0.932909    
+geminkinko             3.866e-03  3.696e-04  10.458  < 2e-16 ***
+raildist_rs           -1.469e-02  1.839e-03  -7.991 2.38e-15 ***
+highdist_rs            1.127e-02  2.816e-03   4.001 6.57e-05 ***
+dist_local_rs         -3.727e-02  2.134e-02  -1.747 0.080890 .  
+factor(buff25)1        2.844e-02  1.612e-02   1.765 0.077779 .  
+dist_3a_rs             1.784e-02  6.785e-03   2.629 0.008636 ** 
+dist_4d_rs            -2.789e-02  4.206e-03  -6.631 4.40e-11 ***
+dist_4e_rs             9.150e-03  4.302e-03   2.127 0.033586 *  
+dist_4f_rs             1.360e-02  4.050e-03   3.358 0.000801 ***
+dist_zwem_rs          -1.048e-02  4.454e-03  -2.352 0.018785 *  
+chl                   -3.114e-04  8.797e-05  -3.539 0.000411 ***
+doo                   -9.967e-04  6.149e-05 -16.209  < 2e-16 ***
+ZM_rs                 -1.514e-01  7.810e-02  -1.938 0.052765 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1916 on 1777 degrees of freedom
+Multiple R-squared:  0.7395,	Adjusted R-squared:  0.7356 
+F-statistic:   194 on 26 and 1777 DF,  p-value: < 2.2e-16
+
+=========================================================================
+===Rijnplassen, 2005, spatial dependence test on model E, 4NN ===========
+
+	Lagrange multiplier diagnostics for spatial dependence
+
+data:  
+model: lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + isol +
+factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + bevdicht + pnietact + geminkinko + raildist_rs +
+highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + dist_4d_rs + dist_4e_rs + dist_4f_rs +
+dist_zwem_rs + chl + doo + ZM_rs, data = subset4)
+weights: knn4_W2005
+
+LMerr = 414.55, df = 1, p-value < 2.2e-16
+
+
+	Lagrange multiplier diagnostics for spatial dependence
+
+data:  
+model: lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + isol +
+factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + bevdicht + pnietact + geminkinko + raildist_rs +
+highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + dist_4d_rs + dist_4e_rs + dist_4f_rs +
+dist_zwem_rs + chl + doo + ZM_rs, data = subset4)
+weights: knn4_W2005
+
+LMlag = 347.47, df = 1, p-value < 2.2e-16
+
+
+	Lagrange multiplier diagnostics for spatial dependence
+
+data:  
+model: lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + isol +
+factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + bevdicht + pnietact + geminkinko + raildist_rs +
+highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + dist_4d_rs + dist_4e_rs + dist_4f_rs +
+dist_zwem_rs + chl + doo + ZM_rs, data = subset4)
+weights: knn4_W2005
+
+RLMerr = 120, df = 1, p-value < 2.2e-16
+
+
+	Lagrange multiplier diagnostics for spatial dependence
+
+data:  
+model: lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + isol +
+factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + bevdicht + pnietact + geminkinko + raildist_rs +
+highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + dist_4d_rs + dist_4e_rs + dist_4f_rs +
+dist_zwem_rs + chl + doo + ZM_rs, data = subset4)
+weights: knn4_W2005
+
+RLMlag = 52.922, df = 1, p-value = 3.471e-13
+
+
+	Lagrange multiplier diagnostics for spatial dependence
+
+data:  
+model: lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + isol +
+factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + bevdicht + pnietact + geminkinko + raildist_rs +
+highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + dist_4d_rs + dist_4e_rs + dist_4f_rs +
+dist_zwem_rs + chl + doo + ZM_rs, data = subset4)
+weights: knn4_W2005
+
+SARMA = 467.47, df = 2, p-value < 2.2e-16
+
+=========================================================================
+===Rijnplassen, 2005, spatial lag model E, 4NN ==========================
+
+Call:lagsarlm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + 
+    factor(inpandig) + isol + factor(tuin_zow) + bwpr7180 + bwpr8190 + 
+    bwpr9100 + bevdicht + pnietact + geminkinko + +raildist_rs + 
+    highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + 
+    dist_4d_rs + dist_4e_rs + dist_4f_rs + dist_zwem_rs + chl +     doo + ZM_rs, data = subset4, listw = knn4_W2005)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.532910 -0.106456 -0.014036  0.088775  0.765394 
+
+Type: lag 
+Coefficients: (asymptotic standard errors) 
+                         Estimate  Std. Error  z value  Pr(>|z|)
+(Intercept)            4.8910e+00  2.0535e-01  23.8174 < 2.2e-16
+factor(Quarter)200502  4.5842e-03  1.1667e-02   0.3929 0.6943685
+factor(Quarter)200503  1.6129e-02  1.1940e-02   1.3509 0.1767353
+factor(Quarter)200504  1.0805e-02  1.1799e-02   0.9157 0.3597988
+lnwoonop               6.7847e-01  1.8048e-02  37.5920 < 2.2e-16
+nbadk                  9.5254e-02  2.4563e-02   3.8780 0.0001053
+factor(inpandig)1      1.5338e-01  1.9296e-02   7.9489 1.776e-15
+isol                   7.8226e-03  2.6398e-03   2.9633 0.0030432
+factor(tuin_zow)1      2.2544e-03  9.1164e-03   0.2473 0.8046805
+bwpr71801             -4.5907e-02  1.2439e-02  -3.6906 0.0002237
+bwpr81901             -5.2762e-02  1.3078e-02  -4.0344 5.474e-05
+bwpr91001              1.4361e-02  1.5052e-02   0.9540 0.3400658
+bevdicht              -2.7296e-05  2.6893e-05  -1.0150 0.3101075
+pnietact              -1.0261e-04  3.3148e-04  -0.3095 0.7569127
+geminkinko             1.8609e-03  3.4748e-04   5.3554 8.536e-08
+raildist_rs           -1.0416e-02  1.6721e-03  -6.2289 4.698e-10
+highdist_rs            6.0593e-03  2.5480e-03   2.3781 0.0174016
+dist_local_rs         -2.8357e-02  1.9244e-02  -1.4735 0.1406062
+factor(buff25)1        2.5893e-02  1.4517e-02   1.7837 0.0744747
+dist_3a_rs             1.7346e-02  6.1110e-03   2.8385 0.0045324
+dist_4d_rs            -1.3289e-02  3.8597e-03  -3.4431 0.0005751
+dist_4e_rs             7.0052e-03  3.8757e-03   1.8075 0.0706921
+dist_4f_rs             4.0031e-03  3.6789e-03   1.0881 0.2765341
+dist_zwem_rs          -3.7528e-03  4.0245e-03  -0.9325 0.3510853
+chl                   -1.1462e-04  7.9947e-05  -1.4337 0.1516533
+doo                   -6.3142e-04  5.8363e-05 -10.8189 < 2.2e-16
+ZM_rs                 -1.2750e-01  7.0423e-02  -1.8104 0.0702268
+
+Rho: 0.34116, LR test value: 304.94, p-value: < 2.22e-16
+Asymptotic standard error: 0.017749
+    z-value: 19.222, p-value: < 2.22e-16
+Wald statistic: 369.47, p-value: < 2.22e-16
+
+Log likelihood: 586.7176 for lag model
+ML residual variance (sigma squared): 0.029795, (sigma: 0.17261)
+Number of observations: 1804 
+Number of parameters estimated: 29 
+AIC: -1115.4, (AIC for lm: -812.49)
+LM test for residual autocorrelation
+test value: 58.433, p-value: 2.0983e-14
+
+=========================================================================
+===Rijnplassen, 2005, spatial error model E, 4NN ========================
+
+Call:errorsarlm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + 
+    factor(inpandig) + isol + factor(tuin_zow) + bwpr7180 + bwpr8190 + 
+    bwpr9100 + bevdicht + pnietact + geminkinko + +raildist_rs + 
+    highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + 
+    dist_4d_rs + dist_4e_rs + dist_4f_rs + dist_zwem_rs + chl +     doo + ZM_rs, data = subset4, listw = knn4_W2005)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.574603 -0.098283 -0.016363  0.082835  0.803490 
+
+Type: error 
+Coefficients: (asymptotic standard errors) 
+                         Estimate  Std. Error z value  Pr(>|z|)
+(Intercept)            8.8372e+00  9.9415e-02 88.8923 < 2.2e-16
+factor(Quarter)200502  7.0496e-04  1.1171e-02  0.0631 0.9496802
+factor(Quarter)200503  1.6873e-02  1.1448e-02  1.4738 0.1405238
+factor(Quarter)200504  7.8386e-03  1.1149e-02  0.7031 0.4820024
+lnwoonop               7.4210e-01  1.7956e-02 41.3287 < 2.2e-16
+nbadk                  6.8686e-02  2.3355e-02  2.9410 0.0032717
+factor(inpandig)1      1.2193e-01  1.8805e-02  6.4837 8.949e-11
+isol                   7.7347e-03  2.5539e-03  3.0286 0.0024573
+factor(tuin_zow)1      1.3582e-02  8.8618e-03  1.5326 0.1253627
+bwpr71801             -4.2174e-02  1.6058e-02 -2.6263 0.0086317
+bwpr81901             -2.6585e-02  1.6903e-02 -1.5728 0.1157673
+bwpr91001              7.4096e-02  1.8974e-02  3.9051 9.418e-05
+bevdicht              -8.8912e-07  4.2475e-05 -0.0209 0.9832995
+pnietact               3.8082e-04  4.7137e-04  0.8079 0.4191491
+geminkinko             3.7151e-03  5.0347e-04  7.3790 1.594e-13
+raildist_rs           -1.3125e-02  2.6681e-03 -4.9192 8.688e-07
+highdist_rs            9.0277e-03  3.8013e-03  2.3749 0.0175553
+dist_local_rs         -5.6972e-02  2.0002e-02 -2.8484 0.0043945
+factor(buff25)1        1.9366e-02  1.5948e-02  1.2143 0.2246340
+dist_3a_rs             1.2246e-02  8.1750e-03  1.4980 0.1341272
+dist_4d_rs            -2.3980e-02  6.2377e-03 -3.8444 0.0001209
+dist_4e_rs             5.1844e-03  6.0282e-03  0.8600 0.3897716
+dist_4f_rs             1.4409e-02  5.7001e-03  2.5278 0.0114768
+dist_zwem_rs          -7.7709e-03  6.3448e-03 -1.2248 0.2206596
+chl                   -3.3379e-04  1.3182e-04 -2.5321 0.0113379
+doo                   -9.5933e-04  1.0128e-04 -9.4724 < 2.2e-16
+ZM_rs                 -2.3684e-01  1.2207e-01 -1.9402 0.0523547
+
+Lambda: 0.49953, LR test value: 328.44, p-value: < 2.22e-16
+Asymptotic standard error: 0.022556
+    z-value: 22.146, p-value: < 2.22e-16
+Wald statistic: 490.46, p-value: < 2.22e-16
+
+Log likelihood: 598.4676 for error model
+ML residual variance (sigma squared): 0.028404, (sigma: 0.16853)
+Number of observations: 1804 
+Number of parameters estimated: 29 
+AIC: -1138.9, (AIC for lm: -812.49)
+
+=========================================================================
+===Rijnplassen, 2005, spatial dependence test on model E, 10NN ==========
+
+	Lagrange multiplier diagnostics for spatial dependence
+
+data:  
+model: lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + isol +
+factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + bevdicht + pnietact + geminkinko + raildist_rs +
+highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + dist_4d_rs + dist_4e_rs + dist_4f_rs +
+dist_zwem_rs + chl + doo + ZM_rs, data = subset4)
+weights: knn10_W2005
+
+LMerr = 557.7, df = 1, p-value < 2.2e-16
+
+
+	Lagrange multiplier diagnostics for spatial dependence
+
+data:  
+model: lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + isol +
+factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + bevdicht + pnietact + geminkinko + raildist_rs +
+highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + dist_4d_rs + dist_4e_rs + dist_4f_rs +
+dist_zwem_rs + chl + doo + ZM_rs, data = subset4)
+weights: knn10_W2005
+
+LMlag = 389.51, df = 1, p-value < 2.2e-16
+
+
+	Lagrange multiplier diagnostics for spatial dependence
+
+data:  
+model: lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + isol +
+factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + bevdicht + pnietact + geminkinko + raildist_rs +
+highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + dist_4d_rs + dist_4e_rs + dist_4f_rs +
+dist_zwem_rs + chl + doo + ZM_rs, data = subset4)
+weights: knn10_W2005
+
+RLMerr = 247.76, df = 1, p-value < 2.2e-16
+
+
+	Lagrange multiplier diagnostics for spatial dependence
+
+data:  
+model: lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + isol +
+factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + bevdicht + pnietact + geminkinko + raildist_rs +
+highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + dist_4d_rs + dist_4e_rs + dist_4f_rs +
+dist_zwem_rs + chl + doo + ZM_rs, data = subset4)
+weights: knn10_W2005
+
+RLMlag = 79.576, df = 1, p-value < 2.2e-16
+
+
+	Lagrange multiplier diagnostics for spatial dependence
+
+data:  
+model: lm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + factor(inpandig) + isol +
+factor(tuin_zow) + bwpr7180 + bwpr8190 + bwpr9100 + bevdicht + pnietact + geminkinko + raildist_rs +
+highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + dist_4d_rs + dist_4e_rs + dist_4f_rs +
+dist_zwem_rs + chl + doo + ZM_rs, data = subset4)
+weights: knn10_W2005
+
+SARMA = 637.28, df = 2, p-value < 2.2e-16
+
+=========================================================================
+===Rijnplassen, 2005, spatial lag model E, 10NN =========================
+
+Call:lagsarlm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + 
+    factor(inpandig) + isol + factor(tuin_zow) + bwpr7180 + bwpr8190 + 
+    bwpr9100 + bevdicht + pnietact + geminkinko + +raildist_rs + 
+    highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + 
+    dist_4d_rs + dist_4e_rs + dist_4f_rs + dist_zwem_rs + chl +     doo + ZM_rs, data = subset4, listw = knn10_W2005)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.513707 -0.109599 -0.017410  0.091645  0.846671 
+
+Type: lag 
+Coefficients: (asymptotic standard errors) 
+                         Estimate  Std. Error z value  Pr(>|z|)
+(Intercept)            4.3386e+00  2.4210e-01 17.9209 < 2.2e-16
+factor(Quarter)200502  2.7899e-03  1.1794e-02  0.2366 0.8130017
+factor(Quarter)200503  1.5209e-02  1.2071e-02  1.2599 0.2076900
+factor(Quarter)200504  9.4169e-03  1.1931e-02  0.7893 0.4299300
+lnwoonop               6.9093e-01  1.8025e-02 38.3320 < 2.2e-16
+nbadk                  9.7295e-02  2.4834e-02  3.9178 8.936e-05
+factor(inpandig)1      1.5814e-01  1.9509e-02  8.1059 4.441e-16
+isol                   8.1725e-03  2.6690e-03  3.0620 0.0021985
+factor(tuin_zow)1      1.1646e-05  9.2189e-03  0.0013 0.9989921
+bwpr71801             -5.9092e-02  1.2580e-02 -4.6974 2.635e-06
+bwpr81901             -5.5441e-02  1.3258e-02 -4.1817 2.894e-05
+bwpr91001              9.1659e-03  1.5348e-02  0.5972 0.5503688
+bevdicht              -3.0617e-05  2.7187e-05 -1.1262 0.2600935
+pnietact              -1.3125e-04  3.3509e-04 -0.3917 0.6952892
+geminkinko             1.7330e-03  3.5823e-04  4.8377 1.314e-06
+raildist_rs           -8.9336e-03  1.6986e-03 -5.2593 1.446e-07
+highdist_rs            4.8030e-03  2.5810e-03  1.8609 0.0627551
+dist_local_rs         -2.5768e-02  1.9456e-02 -1.3244 0.1853568
+factor(buff25)1        3.4739e-02  1.4679e-02  2.3666 0.0179521
+dist_3a_rs             1.5746e-02  6.1782e-03  2.5486 0.0108158
+dist_4d_rs            -1.3246e-02  3.9035e-03 -3.3934 0.0006903
+dist_4e_rs             8.1280e-03  3.9177e-03  2.0747 0.0380153
+dist_4f_rs             2.8066e-03  3.7232e-03  0.7538 0.4509636
+dist_zwem_rs          -2.0864e-03  4.0687e-03 -0.5128 0.6080918
+chl                   -5.0882e-05  8.1313e-05 -0.6258 0.5314767
+doo                   -5.9032e-04  6.0143e-05 -9.8152 < 2.2e-16
+ZM_rs                 -1.3780e-01  7.1172e-02 -1.9362 0.0528412
+
+Rho: 0.38014, LR test value: 286.05, p-value: < 2.22e-16
+Asymptotic standard error: 0.020748
+    z-value: 18.322, p-value: < 2.22e-16
+Wald statistic: 335.7, p-value: < 2.22e-16
+
+Log likelihood: 577.272 for lag model
+ML residual variance (sigma squared): 0.030453, (sigma: 0.17451)
+Number of observations: 1804 
+Number of parameters estimated: 29 
+AIC: -1096.5, (AIC for lm: -812.49)
+LM test for residual autocorrelation
+test value: 72.375, p-value: < 2.22e-16
+
+=========================================================================
+===Rijnplassen, 2005, spatial error model E, 10NN========================
+
+Call:errorsarlm(formula = lnprice ~ factor(Quarter) + lnwoonop + nbadk + 
+    factor(inpandig) + isol + factor(tuin_zow) + bwpr7180 + bwpr8190 + 
+    bwpr9100 + bevdicht + pnietact + geminkinko + +raildist_rs + 
+    highdist_rs + dist_local_rs + factor(buff25) + dist_3a_rs + 
+    dist_4d_rs + dist_4e_rs + dist_4f_rs + dist_zwem_rs + chl +     doo + ZM_rs, data = subset4, listw = knn10_W2005)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.557493 -0.104552 -0.016585  0.086074  0.811217 
+
+Type: error 
+Coefficients: (asymptotic standard errors) 
+                         Estimate  Std. Error z value  Pr(>|z|)
+(Intercept)            8.8210e+00  1.0511e-01 83.9202 < 2.2e-16
+factor(Quarter)200502  2.1922e-04  1.1414e-02  0.0192 0.9846764
+factor(Quarter)200503  1.8510e-02  1.1625e-02  1.5922 0.1113398
+factor(Quarter)200504  8.6029e-03  1.1473e-02  0.7498 0.4533542
+lnwoonop               7.4049e-01  1.7808e-02 41.5811 < 2.2e-16
+nbadk                  7.1685e-02  2.3624e-02  3.0344 0.0024101
+factor(inpandig)1      1.3234e-01  1.9072e-02  6.9390 3.949e-12
+isol                   7.3429e-03  2.5894e-03  2.8358 0.0045711
+factor(tuin_zow)1      1.0054e-02  9.0599e-03  1.1097 0.2671162
+bwpr71801             -5.1196e-02  1.6057e-02 -3.1884 0.0014307
+bwpr81901             -2.1491e-02  1.7566e-02 -1.2235 0.2211590
+bwpr91001              7.5113e-02  1.8919e-02  3.9702 7.181e-05
+bevdicht               3.9649e-06  4.3893e-05  0.0903 0.9280235
+pnietact               5.5959e-04  4.6138e-04  1.2129 0.2251870
+geminkinko             3.2410e-03  5.1254e-04  6.3234 2.558e-10
+raildist_rs           -1.0114e-02  3.0170e-03 -3.3523 0.0008015
+highdist_rs            7.9191e-03  3.8872e-03  2.0372 0.0416254
+dist_local_rs         -4.5500e-02  1.9511e-02 -2.3320 0.0196999
+factor(buff25)1        2.9117e-02  1.5169e-02  1.9195 0.0549186
+dist_3a_rs             1.0293e-02  8.0531e-03  1.2781 0.2011970
+dist_4d_rs            -1.8290e-02  6.8586e-03 -2.6667 0.0076608
+dist_4e_rs            -1.2153e-03  6.1548e-03 -0.1975 0.8434705
+dist_4f_rs             1.3963e-02  6.2106e-03  2.2483 0.0245548
+dist_zwem_rs           1.3451e-04  6.4417e-03  0.0209 0.9833405
+chl                   -2.7036e-04  1.4798e-04 -1.8270 0.0676981
+doo                   -9.6609e-04  1.2938e-04 -7.4668 8.216e-14
+ZM_rs                 -2.3187e-01  1.4586e-01 -1.5897 0.1118952
+
+Lambda: 0.63258, LR test value: 316.87, p-value: < 2.22e-16
+Asymptotic standard error: 0.026418
+    z-value: 23.945, p-value: < 2.22e-16
+Wald statistic: 573.35, p-value: < 2.22e-16
+
+Log likelihood: 592.6798 for error model
+ML residual variance (sigma squared): 0.028953, (sigma: 0.17016)
+Number of observations: 1804 
+Number of parameters estimated: 29 
+AIC: -1127.4, (AIC for lm: -812.49)
+
+=========================================================================
