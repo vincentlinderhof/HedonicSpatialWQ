@@ -4,6 +4,10 @@ if(Sys.info()["user"] == "linde069"){
   dataPath <- "D:/Analyses/HedonicSpatialWQ/SurveyData"
   setwd("D:/Analyses/HedonicSpatialWQ")
 }
+if(Sys.info()["user"] == "Zhong Xiao Leng"){
+  dataPath <- "D:/Analyses/HedonicSpatialWQ/SurveyData"
+  setwd("D:/Analyses/HedonicSpatialWQ")
+}
 
 #D:/Analyses/HedonicSpatialWQ/SurveyData
 
@@ -12,7 +16,7 @@ library(rgdal)
 library(Deducer)
 
 # Reading the data from a shapefile (all data for Maasplassen)
-if(Sys.info()["user"] == "zhongxiaoleng"){
+if(Sys.info()["user"] == "Zhong Xiao Leng"){
   Maas <- readOGR(dsn = "C:/Users/Zhong Xiao Leng/Desktop/Maas-shapefiles", layer = "Maas")
 }
 if(Sys.info()["user"] == "linde069"){
@@ -411,20 +415,6 @@ stargazer(Maas2005_OLS_E, Maas2005_SPL_E_NN4, Maas2005_SPE_E_NN4, Maas2005_SPL_E
 #Comparison between years for model E for three regressions OLS, Spatial Error and Spatial Lag (10 Nearest Neighbours) 
 stargazer(Maas2000_OLS_E, Maas2000_SPL_E_NN10, Maas2000_SPE_E_NN10, Maas2005_OLS_E, Maas2005_SPL_E_NN10, Maas2005_SPE_E_NN10, out="Results/SpatialMaas2000&2005.html")
 
-rm(Maas2004, Maas2005_OLS_b, Maas2005_OLS_c, Maas2005_OLS_d)
-rm(Maas25nerror, Maas25nlag, Maaserror, Maaserror2, Maaslag, Maaslag2)
-rm(MaasSubset, MaasSubSet, MaasSubsetln)
-rm(OLSMaas, OLSMaas_A, OLSMaas1, OLSMaas10)
-rm(OLSMaas1996, OLSMaas2, OLSMaas2000, OLSMaas2004)
-rm(OLSMaas3, OLSMaas4, OLSMaas5, OLSMaas6)
-rm(OLSMaas7, OLSMaas8, OLSMaas9, OLSMaas_B, OLSMaas_C, OLSMaas_D, OLSMaas_E)
-rm(SPEMaas_E, SPLMaas_E, queen1)
-rm(Maas10nerror, Maas10nerror2, Maas10nlag, Maas10nlag2)
-rm(subset)
-rm(knnSubSet, knnSubSet1, knnSubSet1_w)
-
-rm(DataHedonic)
-rm(centroidsSubSet)
 
 sink('Results/Analysis-output_Maasplassen.txt', append=TRUE)
 cat("=========================================================================\n")
@@ -487,7 +477,7 @@ cat("===Maasplassen, 2005, spatial dependence test on model E, 4NN ===========\n
 lm2005_4NN
 cat("=========================================================================\n")
 cat("===Maasplassen, 2005, spatial lag model E, 4NN ==========================\n")
-sumamry(Maas2005_SPL_E_NN4)
+summary(Maas2005_SPL_E_NN4)
 cat("=========================================================================\n")
 cat("===Maasplassen, 2005, spatial error model E, 4NN ========================\n")
 summary(Maas2005_SPE_E_NN4)
@@ -505,7 +495,4 @@ cat("=========================================================================\n
 
 sink()
 
-Maas2005_SPE_E_NN10
-summary(Maas2005_SPE_E_NN10)
-Maas2005_SPE_E_NN10
 
